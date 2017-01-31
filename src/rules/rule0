@@ -1,0 +1,2 @@
+all;
+policy: error prob 0 0.5, prob 1 0.5;

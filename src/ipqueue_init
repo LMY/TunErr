@@ -1,0 +1,8 @@
+#!/bin/bash
+modprobe iptable_filter
+modprobe ip_queue
+
+iptables -A OUTPUT -p icmp -j QUEUE
+iptables -A INPUT -p udp --dport 17777 -j QUEUE
+iptables -A INPUT -p tcp --dport 17777 -j QUEUE
+iptables -A INPUT -p tcp --dport 7777 -j QUEUE

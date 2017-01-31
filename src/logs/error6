@@ -1,0 +1,33 @@
+
+RULE
+udp: dport == 17777;
+policy: discard 1;
+
+
+
+LOG
+Connecting to: (localhost:17777)
+Speed = 1000, PacketSize = 1000, Pattern = 4289331370
+packets:        (0.000000) 128 = 128 - 0
+errors: (0.000000) 0
+
+packets:        (0.000000) 6020 = 6020 - 0
+errors: (0.000000) 0
+
+packets:        (0.000000) 11898 = 11898 - 0
+errors: (0.000000) 0
+
+packets:        (0.000000) 24007 = 24007 - 0
+errors: (0.000000) 0
+
+packets:        (0.000000) 40885 = 40885 - 0
+errors: (0.000000) 0
+
+packets:        (0.000000) 57858 = 57858 - 0
+errors: (0.000000) 0
+
+packets:        (0.000000) 74723 = 74723 - 0
+errors: (0.000000) 0
+
+packets:        (0.000000) 91560 = 91560 - 0
+errors: (0.000000) 0

@@ -1,0 +1,56 @@
+
+[filenumbers]
+0=88
+1=346
+2=274
+3=2
+4=2
+5=23
+6=124
+7=2
+8=10
+9=1
+10=2
+11=72
+12=26
+13=4
+
+[filemarkers]
+0=
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+8=
+9=
+10=
+11=
+12=
+13=
+
+[File View]
+filter.file.unmatch=*.so *.o *.a *.la
+filter.file.ignore.hidden=0
+filter.dir.ignore.hidden=0
+
+[executer]
+RunInTerminal=true
+
+[Project State]
+clean before build=false
+
+[filelist]
+0=/home/lmy/Projects/TunErr/src/RuleError.cc
+1=/home/lmy/Projects/TunErr/src/RuleFactory.cc
+2=/home/lmy/Projects/TunErr/src/tunerr.cpp
+
+[Project Tree]
+0=0
+1=0:0
+2=0:1
+
+[File Tree]
+0=0
